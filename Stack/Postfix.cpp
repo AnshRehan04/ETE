@@ -5,7 +5,7 @@
 using namespace std;
 
 int evaluatePostfix(string str) {
-    stack<int> s;
+    stack<char> s;
     stringstream ss(str);
     string token;
 
